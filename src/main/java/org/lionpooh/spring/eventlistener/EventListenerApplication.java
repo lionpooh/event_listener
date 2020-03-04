@@ -12,6 +12,6 @@ public class EventListenerApplication implements CommandLineRunner {
     }
 
     public void run(String... args) throws Exception {
-
+        
     }
 }

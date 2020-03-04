@@ -2,10 +2,10 @@ package org.lionpooh.spring.eventlistener.vo;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import lombok.Data;
-import org.lionpooh.spring.eventlistener.json.NovaInstanceEventDecerializer;
+import org.lionpooh.spring.eventlistener.json.NovaInstanceEventDeserializer;
 
 @Data
-@JsonDeserialize(using = NovaInstanceEventDecerializer.class)
+@JsonDeserialize(using = NovaInstanceEventDeserializer.class)
 public class NovaInstance {
     private String eventType;
     private String instanceName;
